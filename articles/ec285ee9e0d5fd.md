@@ -39,7 +39,7 @@ Tailwind CSS で用意されている `tabular-nums` というクラスを用い
 <body class="tabular-nums"></body>
 ```
 
-なお、Tailwind CSS の公式ドキュメントには、このクラスのプロパティは、
+なお、[Tailwind CSS の公式ドキュメント](https://tailwindcss.com/docs/font-variant-numeric)には、このクラスのプロパティは、
 
 ```css
 font-variant-numeric: tabular-nums;
