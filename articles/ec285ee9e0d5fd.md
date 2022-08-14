@@ -20,12 +20,32 @@ Tailwind CSS では、独自のリセット CSS の [Preflight](https://tailwind
 
 Tailwind CSS で用意されている `tabular-nums` というクラスを用います。
 
-なお、このクラスの実態は、
+@[codepen](https://codepen.io/yuuumiravy/pen/oNqaZZP)
+
+なお、このクラスのプロパティは、
+
+```css
+--tw-numeric-spacing: tabular-nums;
+```
+
+です。
+
+そのため、ページ全体対して適用したい場合は、個別に設定するのではなく、 `tabular-nums` クラスを html タグや body タグに設定することもできます。
+その場合のコードは、下記のようなものです。
+
+```html
+<html lang="ja" class="tabular-nums"></html>
+<!-- または -->
+<body class="tabular-nums"></body>
+```
+
+なお、Tailwind CSS の公式ドキュメントには、このクラスのプロパティは、
 
 ```css
 font-variant-numeric: tabular-nums;
 ```
 
-となります。この CSS プロパティについての詳細は、[MDN | font-variant-numeric](https://developer.mozilla.org/ja/docs/Web/CSS/font-variant-numeric) をご覧ください。
+であると書かれています。
+しかし、実際のプロパティとは異なっているため、この記述はおそらく「`font-variant-numeric: tabular-nums;`と同様のはたらきをするクラスである」という意味合いなのでしょう。
 
-@[codepen](https://codepen.io/yuuumiravy/pen/oNqaZZP)
+`font-variant-numeric` についての詳細は、[MDN | font-variant-numeric](https://developer.mozilla.org/ja/docs/Web/CSS/font-variant-numeric) をご覧ください。
