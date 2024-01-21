@@ -10,6 +10,6 @@
   "author": "yuuumbk <misharv.y@gmail.com> (https://github.com/yuuumbk/)",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "^0.1.117"
+    "zenn-cli": "^0.1.151"
   }
 }
