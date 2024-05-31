@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "new:article": "zenn new:article",
+    "preview": "zenn preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "yu-3in <misharv.y@gmail.com> (https://github.com/yu-3in/)",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "^0.1.151"
+    "zenn-cli": "^0.1.153"
   }
 }
