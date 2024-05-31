@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "yuuumbk <misharv.y@gmail.com> (https://github.com/yuuumbk/)",
+  "author": "yu-3in <misharv.y@gmail.com> (https://github.com/yu-3in/)",
   "license": "ISC",
   "dependencies": {
     "zenn-cli": "^0.1.151"
