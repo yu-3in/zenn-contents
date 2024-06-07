@@ -12,6 +12,6 @@
   "author": "yu-3in <misharv.y@gmail.com> (https://github.com/yu-3in/)",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "^0.1.153"
+    "zenn-cli": "^0.1.154"
   }
 }
